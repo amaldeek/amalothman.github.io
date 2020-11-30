@@ -1,0 +1,31 @@
+td {
+    text-align: center
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-align: center
+}
+
+h5 {
+    text-align: center;
+    color: magenta;
+}
+
+.my-name{
+    color: darkcyan;
+    font-size: 300%;
+}
+
+.summary{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;
+}
+
+#printMyCV
+{
+    float: right !important;
+}
