@@ -1,80 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <link rel="stylesheet" href="style.css">    
-    <title>Amal deek</title>   
+<html>
+<head> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="mystyles.css">
+	<title>Mustafa Fa'd Abubaker</title>
 </head>
-
 <body>
-    <button id="printMyCV">Print My CV</button>
-    <h1 class="my-name">Amal deek</h1>
-    <img style="width: 300px;height: 300px" src="item.png" />
-    <p class="summary">I study networks and information security. I chose this major because I loved it and it has many fields in the
-        world of technology. Through my studies of it, I learned a lot of information for a mission that will help me
-        develop myself more and more. I hope I develop and learn more.</p>
 
-    <table>
-        <tr>
-            <td>
-                <a href="https://www.facebook.com/"> <img src="https://image.flaticon.com/icons/png/512/124/124010.png"
-                        style="width: 50px;height: 50px;margin: 15px" /></a>
-            </td>
-            <td>
-                <a href="https://www.instagram.com/"> <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/480px-Instagram-Icon.png"
-                        style="width: 50px;height: 50px;margin: 15px" /></a>
-            </td>
-        </tr>
-    </table>
+<button id="dropbtn" onclick="Mustafa()">Print My CV</button><br> 
+<header> <h1 id="HH" onclick="mustafa()">Mustafa Fa'd Abubaker</h1> </header>
+<p id="iu"><b>I'm 23 years old,I study Computer information system at<a href="https://www.najah.edu/">Al-Najah-National-University</a>in the year 6<br> 
+	which is my last year at University</b></p><p>I was worked in Reach Company as a call center at 2018<br>
+    and in the same year i was trainer at Ibdaa Company with my team<br>	
+	we had work to develope project it name <b id="T">chance</b> and entered in Competition with another teams <br>I hope to create my self Company in the future and travel<br>I wish to win in the hult prize in the soon          
+</p><hr>
+<a id="E" href="https://www.linkedin.com/in/mustafa-abubaker-898a54167/"target="_blank">visit my mustafa-abubaker-898a54167/</a> 
+<br><br><hr>
+<div>You can <a href="contactme-1.html">contact me</a></div>
+ <div class="center-btn" style="margin-top: 20px;">
+             <a href="index (1).html">Home Page</a><br>
+        </div>
+<a href="www.facebook.com/mustafa.abubaker333"target="_blank">
+<img src="Private.jpg" alt="mustafa.abubaker333"> 
+</a>
+<script>
+	function Mustafa(){window.print()
+		document.getElementById("dropbtn").style.cssFloat="right";};
+	function mustafa(){window.alert('Welcome, please let me know if you have any questions')};
 
+ document.getElementById("iu").onmouseover = function() {mouseOver()};
+document.getElementById("iu").onmouseout = function() {mouseOut()};
 
-    <table style="width: 100%;background-color: lightblue">
-        <tr>
-            <td>
-                <h5>LIST OF EDUCATION BACKGROUND</h5>
-            </td>
-            <td>
-                <h5>LIST OF WORK EXPERIENCE</h5>
-            </td>
-            <td>
-                <h5>LIST OF HoBBIES </h5>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <ul class="education-list">
-                    <li>Data Structure</li>
-                    <li>DataBase</li>
-                    <li>Java</li>
+function mouseOver() {
+  document.getElementById("iu").style.color = "red";
+  }
 
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>Discrete Mathematics</li>
-                    <li>Accounting principles</li>
-                    <li>java2</li>
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>Reading books</li>
-                    <li>Swimming</li>
-                    <li>singing</li>
+function mouseOut() {
+  document.getElementById("iu").style.color = "";
+  
+}
 
-                </ul>
-            </td>
-        </tr>
-
-
-    </table>
-
-
-
+</script>
 </body>
-
-<script src="script.js"></script>
-
 </html>
+
